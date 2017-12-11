@@ -28,7 +28,6 @@ RUN set -ex \
  && pip install -U six oauth2client\
  && pip install \
 	pyasn1 \
-        Mopidy-Moped \
 	Mopidy-MusicBox-Webclient \
         Mopidy-GMusic \
  && apt-get purge --auto-remove -y \
